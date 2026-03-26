@@ -8,6 +8,4 @@ import { Navbar } from './features/navbar/navbar';
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
-export class App {
-  protected readonly title = signal('EventAssos');
-}
+export class App {}
