@@ -3,6 +3,7 @@ import { Home } from './features/page/home/home';
 import { Connection } from './features/page/connection/connection';
 import { Evenement } from './features/page/evenement/evenement';
 import { Profile } from './features/page/profile/profile';
+import { CreateEvent } from './features/page/create-event/create-event';
 
 export const routes: Routes = [
 {
@@ -24,6 +25,10 @@ export const routes: Routes = [
 {
     path:"evenement",
     component: Evenement
+},
+{
+    path:"evenement/create",
+    component: CreateEvent
 },
 
 {
