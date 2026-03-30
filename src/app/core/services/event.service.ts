@@ -19,7 +19,7 @@ export class EventService {
   deleteEvent(id: string): Observable<void> {
     return this._httpClient.delete<void>(this.base_url + "/" + id);
   }
-  createEvent(event:Event): Observable<void> {
+  createEvent(event:EventModel): Observable<void> {
     return this._httpClient.post<void>(this.base_url, event);
   }
   modifyEvent(id:string,event:Event): Observable <void>{
