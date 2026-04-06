@@ -1,20 +1,23 @@
-.navbar {
-  position: fixed;        /* Reste collée en haut même en scrollant */
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #6b95e2;
-  display: flex;          
-  
-  
-}
-.navbar a {
-  color: white;
-  text-decoration: none;  /* Supprime le soulignement */
-  font-size: 20px;
-  margin-right: 2rem; 
+/* Style de la navbar */
+.sidebar {
+  width: 250px;
+  min-width: 250px;
+  background: linear-gradient(180deg, #8b5cf6 0%, #6f42c1 50%, #4c1d95 100%);
+  min-height: 100vh;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  border-radius:5%;
+  box-shadow: 0 4px 12px rgba(111, 66, 193, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.navbar a:hover {
-  color: #f0a500;         /* Couleur au survol */
+/* Les liens du menu */
+.nav-link {
+  transition: all 0.3s; /*survol fluide*/
+  border-radius: 8px;
+}
+
+/* Quand on passe la souris ou que la page est active, on met un fond blanc transparent */
+.nav-link:hover, .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff !important;
 }

@@ -1,3 +1,28 @@
-.content {
-  min-height: 200%;
+
+/* Le titre en haut à gauche */
+#titreApp {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-purple); /* On rappelle la couleur de la charte */
 }
+
+/* bouton de connexion */
+.btn-connexion {
+  background-color: var(--primary-purple);
+  color: white;
+  border: none;
+  border-radius: 50px; 
+  padding: 8px 25px;
+  font-weight: 500;
+  /* L'ombre portée : j'ai mis un peu de violet dedans pour que ce soit plus doux que du noir */
+  box-shadow: 0 4px 12px rgba(111, 66, 193, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Petit effet interactif: le bouton remonte un peu quand on le survole */
+.btn-connexion:hover {
+  background-color: var(--dark-purple);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 15px rgba(111, 66, 193, 0.4);
+}
+

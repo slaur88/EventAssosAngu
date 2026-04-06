@@ -11,7 +11,7 @@ export const routes: Routes = [
     component:Home
 },
 
-{
+{ 
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
@@ -29,11 +29,6 @@ export const routes: Routes = [
 {
     path:"evenement/create",
     component: CreateEvent
-},
-
-{
-    path:'profile',
-    component: Profile
 },
 
 {
