@@ -1,9 +1,9 @@
 import { Routes } from '@angular/router';
-import { Home } from './features/page/home/home';
-import { Connection } from './features/page/connection/connection';
-import { Evenement } from './features/page/evenement/evenement';
-import { Profile } from './features/page/profile/profile';
-import { CreateEvent } from './features/page/create-event/create-event';
+import { Home } from './features/home/home';
+import { Connection } from './features/pages/connection/connection';
+import { Evenement } from './features/pages/evenement/evenement';
+import { Profile } from './features/pages/profile/profile';
+import { CreateEvent } from './features/pages/create-event/create-event';
 
 export const routes: Routes = [
 {
@@ -11,7 +11,7 @@ export const routes: Routes = [
     component:Home
 },
 
-{
+{ 
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
@@ -29,11 +29,6 @@ export const routes: Routes = [
 {
     path:"evenement/create",
     component: CreateEvent
-},
-
-{
-    path:'profile',
-    component: Profile
 },
 
 {
