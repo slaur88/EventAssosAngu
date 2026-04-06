@@ -4,13 +4,13 @@ export interface EventModel {
     name: string;
     description:string;
     lieu:string;
-    start:DatePipe ;
-    end: DatePipe ;
+    start:string ;
+    end: string ;
     minUser: number;
     maxUser: number;
     Category:string;
     Statut:string;
-    CreationDate:DatePipe;
+    CreationDate:string;
 }
 
 export interface EventModelDTO extends EventModel{
