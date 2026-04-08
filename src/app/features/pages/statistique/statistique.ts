@@ -2,12 +2,11 @@ import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-home',
-  standalone:true,
+  selector: 'app-statistique',
   imports: [RouterLink],
-  templateUrl: './home.html',
-  styleUrl: './home.css',
+  templateUrl: './statistique.html',
+  styleUrl: './statistique.css',
 })
-export class Home {
+export class Statistique {
 
 }

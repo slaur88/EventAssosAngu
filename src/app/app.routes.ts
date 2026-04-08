@@ -4,6 +4,7 @@ import { Connection } from './features/pages/connection/connection';
 import { Evenement } from './features/pages/evenement/evenement';
 import { Profile } from './features/pages/profile/profile';
 import { CreateEvent } from './features/pages/create-event/create-event';
+import { Statistique } from './features/pages/statistique/statistique';
 
 export const routes: Routes = [
 {
@@ -31,6 +32,10 @@ export const routes: Routes = [
     component: CreateEvent
 },
 
+{
+    path:"statistique",
+    component: Statistique
+},
 {
     path:'**',
     loadComponent: () => import("./features/errors/not-found/not-found")
