@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+/* J'ai créé des variables pour pas avoir à retaper le code couleur partout */
+:root {
+  --primary-purple: #7751be; 
+  --dark-purple: #7751be
+}
+
