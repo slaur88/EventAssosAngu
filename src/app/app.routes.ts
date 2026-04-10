@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router';
 import { Home } from './features/home/home';
-import { Connection } from './features/pages/connection/connection';
 import { Evenement } from './features/pages/evenement/evenement';
 import { Profile } from './features/pages/profile/profile';
 import { CreateEvent } from './features/pages/create-event/create-event';
 import { Statistique } from './features/pages/statistique/statistique';
+import { Connection } from './features/pages/connection/connection';
 
 export const routes: Routes = [
 {
